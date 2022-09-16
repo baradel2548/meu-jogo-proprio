@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.breakbutton{
+  width:70px;
+  height: 70px;
+  border-radius: 35px;
+  background-image: url('./assets/restart.png');
+  background-color: #ea9580;
+  padding: 10px;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
